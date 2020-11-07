@@ -85,6 +85,6 @@ export const SidebarLink = styled(LinkS)`
         transition:all 0.2s ease-in-out;
         background:#fff;
         color: #010606;
-    }
+    };
     `
 
