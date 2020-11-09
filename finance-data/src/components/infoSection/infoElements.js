@@ -19,15 +19,15 @@ margin-right:auto;
 margin-left:auto;
 padding:0 24px;
 justify-content:center;
-`
+`;
 export const InfoRow = styled.div`
 display:grid;
 grid-auto-columns:minmax(auto, 1fr);
 align-items:center;
-grid-template-areas: ${({imgStart})=>imgStart ? `'col2 col1'` : `'col1 col2'`};
+grid-template-areas: ${({imgStart}) => imgStart ? `'col2 col1'` : `'col1 col2'`};
 
 @media screen and (max-width:768px){
-  grid-template-areas:${({imgStart}) =>imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`}  
+  grid-template-areas:${({imgStart}) => imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`}  
 }
 `;
 export const Column1= styled.div`
@@ -75,6 +75,7 @@ font-size:18px;
 line-height:24px;
 color:${({darkText})=>(darkText ? '#010606' : '#fff')};
 `;
+
 export const BtnWrap = styled.div`
 display:flex;
 justify-content:flex-start;
