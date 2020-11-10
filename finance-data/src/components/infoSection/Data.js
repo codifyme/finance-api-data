@@ -1,19 +1,19 @@
 export const homeObjOne={
     id:'about',
-    lightBg:true,
-    lightText:false,
-    lighTextDesc:false,
+    lightBg:false,
+    lightText:true,
+    lighTextDesc:true,
     topLine:'Premiun Data' ,
-    // headline:'Our plans offer Unlimited financial API data that give access and service to everyone',
-    headline:'Premiun API data',
+    headline:'Our plans offer Unlimited financial API data that give access and service to everyone',
+    // headline:'Premiun API data',
     description:'We can provide stock API, historical data API and financial statements API.',
     buttonLabel: 'Get started',
     imgStart:false,
     img:require('../../images/finance.svg'),
     alt:'Car',
-    dark: false,
-    primary:false,
-    darkText:true
+    dark: true,
+    primary:true,
+    darkText:false
 };
 export const homeObjTwo={
     id:'discover',
@@ -26,7 +26,7 @@ export const homeObjTwo={
     buttonLabel: 'Learn More',
     imgStart:true,
     img:require('../../images/finance.svg'),
-    alt:'documentations',
+    alt:'docs',
     dark: false,
     primary:false,
     darkText:true
