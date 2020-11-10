@@ -1,5 +1,5 @@
 export const homeObjOne={
-    id:'about',
+    id:'product',
     lightBg:false,
     lightText:true,
     lighTextDesc:true,
@@ -26,7 +26,7 @@ export const homeObjTwo={
     buttonLabel: 'Learn More',
     imgStart:true,
     img:require('../../images/finance.svg'),
-    alt:'docs',
+    alt:'Modeling',
     dark: false,
     primary:false,
     darkText:true
@@ -36,7 +36,7 @@ export const homeObjThree={
     lightBg:true,
     lightText:false,
     lighTextDesc:false,
-    topLine:'API Key' ,
+    topLine:'Premiun API Key' ,
     headline:'Get your Free API key Today',
     description:'Our goal is to provide you the best service that we can.',
     buttonLabel: 'Start Now',
