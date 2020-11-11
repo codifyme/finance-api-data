@@ -1,7 +1,8 @@
 import React from 'react';
-import Icon1 from '../../images/data.svg';
-import Icon2 from '../../images/finance.svg';
-import Icon3 from '../../images/data.svg';
+import Icon1 from '../../images/ourgoal.png';
+import Icon2 from '../../images/projection.png';
+import Icon3 from '../../images/finantialdata.png';
+import Icon4 from '../../images/businessanalytic.png';
 
 import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2,ServicesP} from './ServicesElements';
 
@@ -9,35 +10,45 @@ import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIc
 const Services = () => {
   return (
     <ServicesContainer id="services">
-      <ServicesH1>Our Plans</ServicesH1>
+      <ServicesH1>Our Flexible Plans</ServicesH1>
       <ServicesWrapper>
           <ServicesCard>
               <ServicesIcon src={Icon1}/>
               <ServicesH2>
-                  For Companies
+                  ENTERPRISE
               </ServicesH2>
               <ServicesP>
-                  We help reduce your fess and increase your overall revenue
+                  Pay-As-You-Go pricing based on what your business needs
               </ServicesP>
           </ServicesCard>
 
           <ServicesCard>
               <ServicesIcon src={Icon2}/>
               <ServicesH2>
-                  For Teams
+                  FOR TEAMS
               </ServicesH2>
               <ServicesP>
-                  You can access our platform online anywhere in the world
+                  $29/month
               </ServicesP>
           </ServicesCard>
 
           <ServicesCard>
               <ServicesIcon src={Icon3}/>
               <ServicesH2>
-                  For Individuals
+                  FOR INDIVIDUALS
               </ServicesH2>
               <ServicesP>
-                  Unlock our special membership card that return 5% cash back
+                  $10/month, billed monthly
+              </ServicesP>
+          </ServicesCard>
+
+          <ServicesCard>
+              <ServicesIcon src={Icon4}/>
+              <ServicesH2>
+                  STUDENT
+              </ServicesH2>
+              <ServicesP>
+                  FREE for active students
               </ServicesP>
           </ServicesCard>
 
