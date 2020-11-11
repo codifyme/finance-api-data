@@ -1,3 +1,5 @@
+
+
 export const homeObjOne={
     id:'product',
     lightBg:false,
@@ -10,7 +12,7 @@ export const homeObjOne={
     buttonLabel: 'Get started',
     imgStart:false,
     img:require('../../images/finance.svg'),
-    alt:'Car',
+    alt:'finance',
     dark: true,
     primary:true,
     darkText:false
@@ -25,7 +27,7 @@ export const homeObjTwo={
     description:'We can provide finantial statement in real time, every statements is audited and up to date. We cover MUTUAL FUNDS, ETFs(Exchance Trade Fund), BONDS, PRICE OF METALS) and many more.',
     buttonLabel: 'Learn More',
     imgStart:true,
-    img:require('../../images/finance.svg'),
+    img:require('../../images/Figma.svg'),
     alt:'Modeling',
     dark: false,
     primary:false,
