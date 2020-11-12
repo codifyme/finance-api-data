@@ -1,8 +1,8 @@
 import React from 'react';
-import Icon1 from '../../images/ourgoal.png';
-import Icon2 from '../../images/projection.png';
-import Icon3 from '../../images/finantialdata.png';
-import Icon4 from '../../images/businessanalytic.png';
+import Icon1 from '../../images/data.svg';
+import Icon2 from '../../images/finantialdata.png';
+import Icon3 from '../../images/ourgoal.png';
+import Icon4 from '../../images/projection.png';
 
 import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2,ServicesP} from './ServicesElements';
 
@@ -14,56 +14,97 @@ const Services = () => {
       <ServicesWrapper>
           <ServicesCard>
               <ServicesIcon src={Icon1}/>
-              <ServicesH2>ENTERPRISE</ServicesH2>
-              <ServicesP>Pay-As-You-Go pricing based on what your business needs</ServicesP>
-              <ServicesP>Longer Data Retention</ServicesP>
-              <ServicesP>Higher API Call Rates</ServicesP>
-              <ServicesP>Scalable Incoming Data</ServicesP>
-              <ServicesP>Multiple User Accounts</ServicesP>
-              <ServicesP>Service-Level Agreement</ServicesP>
-              <ServicesP>Enterprise Support</ServicesP>
-          </ServicesCard>
-
-          <ServicesCard>
-              <ServicesIcon src={Icon2}/>
-              <ServicesH2>FOR TEAMS</ServicesH2>
-              <ServicesP>$29/month</ServicesP>
-              <ServicesP>Unlimited Devices</ServicesP>
-              <ServicesP>Unlimited Visualizations</ServicesP>
-              <ServicesP>180 API Call/min</ServicesP>
-              <ServicesP>Real-Time Expressions</ServicesP>
-              <ServicesP>Sharing/Non-Enterprise-Embeds</ServicesP>
-              <ServicesP>Unlimited Visualizations</ServicesP>
-              <ServicesP>180 API Calls/min</ServicesP>
-              <ServicesP>Email Support</ServicesP>
-          </ServicesCard>
-
-          <ServicesCard>
-              <ServicesIcon src={Icon3}/>
-              <ServicesH2>
-                  FOR INDIVIDUAL
-              </ServicesH2>
-              <ServicesP>$10/month, billed monthly</ServicesP>
-              <ServicesP>Unlimited Devices</ServicesP>
-              <ServicesP>Unlimited Visualizations</ServicesP>
-              <ServicesP>Individual account for personal project</ServicesP>
-              <ServicesP>90 API Calls/Min</ServicesP>
-          </ServicesCard>
-
-          <ServicesCard>
-              <ServicesIcon src={Icon4}/>
               <ServicesH2>
                   STUDENT
               </ServicesH2>
               <ServicesP>
                   FREE for active students
               </ServicesP>
-              <ServicesP>Unlimited Devices</ServicesP>
-              <ServicesP>Unlimited Visualizations</ServicesP>
-              <ServicesP>2-Months Data Retention</ServicesP>
-              <ServicesP>60 API Calls/min</ServicesP>
-              <ServicesP>1M Incoming Data Points</ServicesP>
-              <ServicesP>With a.edu current email address</ServicesP>
+              <ServicesP>
+                  with a .edu and email address
+              </ServicesP>
+              <ServicesP>
+                   2 API Calls - Limitation
+              </ServicesP>
+              <ServicesP>
+                  Unlimited Email support
+              </ServicesP>
+              <ServicesP>
+                  Personal use
+              </ServicesP>
+          </ServicesCard>
+
+          <ServicesCard>
+              <ServicesIcon src={Icon2}/>
+              <ServicesH2>
+                  INDIVIDUAL
+              </ServicesH2>
+              <ServicesP>
+                  For Personal Project
+              </ServicesP>
+              <ServicesP>
+                  $9.99/Month
+              </ServicesP>     
+              <ServicesP>
+                   4 API Calls - Limitaions
+              </ServicesP>
+              <ServicesP>
+                    Email & Chat support
+              </ServicesP>
+              <ServicesP>
+                  Personal & Commercial use
+              </ServicesP>
+
+
+          </ServicesCard>
+
+          <ServicesCard>
+              <ServicesIcon src={Icon3}/>
+              <ServicesH2>
+                  TEAMS
+              </ServicesH2>
+              <ServicesP>
+                  $39.99/month
+              </ServicesP> 
+              <ServicesP>
+                All features included with Individual plan
+              </ServicesP>
+              <ServicesP>
+                22 API Calls
+              </ServicesP>
+              <ServicesP>
+                Up to 8 Team Members
+              </ServicesP>
+              <ServicesP>
+                SMS Triggers
+              </ServicesP>
+              <ServicesP>
+                Signed Requests
+              </ServicesP>
+          </ServicesCard>
+          <ServicesCard>
+              <ServicesIcon src={Icon4}/>
+              <ServicesH2>
+                  ENTERPRISE
+              </ServicesH2>
+              <ServicesP>
+                  Pay-As-You-Go Pricing
+              </ServicesP>
+              <ServicesP>
+                  Base in what your business needs
+              </ServicesP>
+              <ServicesP>
+                  All features included Team plan 
+              </ServicesP>
+              <ServicesP>
+                  Up to 9000 API Calls
+              </ServicesP>
+              <ServicesP>
+                  Unlimited Team Members
+              </ServicesP>
+              <ServicesP>
+                  Gold Members Customer support
+              </ServicesP>
           </ServicesCard>
 
       </ServicesWrapper>
