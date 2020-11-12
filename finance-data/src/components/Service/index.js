@@ -103,7 +103,7 @@ const Services = () => {
                   Unlimited Team Members
               </ServicesP>
               <ServicesP>
-                  Gold Members Customer support
+                  Customer support
               </ServicesP>
           </ServicesCard>
 
