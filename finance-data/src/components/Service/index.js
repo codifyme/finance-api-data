@@ -1,13 +1,19 @@
 import React from 'react';
+import {useState} from 'react';
 import Icon1 from '../../images/data.svg';
 import Icon2 from '../../images/finantialdata.png';
 import Icon3 from '../../images/ourgoal.png';
 import Icon4 from '../../images/projection.png';
+import {Button} from '../ButtonElements';
+import { HeroBtnWrapper,ArrowForward, ArrowRight} from './../HeroSection/HeroElements';
 
 import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2,ServicesP} from './ServicesElements';
-
-
+ 
 const Services = () => {
+    const [hover, setHover]=useState(false)
+    const onHover=()=>{
+        setHover(!hover)
+    }       
   return (
     <ServicesContainer id="services">
       <ServicesH1>Our Flexible Plans</ServicesH1>
@@ -32,6 +38,15 @@ const Services = () => {
               <ServicesP>
                   Personal use
               </ServicesP>
+
+              <HeroBtnWrapper>
+              <Button to="register" onMouseEnter={onHover} onMouseLeave={onHover}
+              primary='true' dark='true'
+              >
+                  Get started {hover ? <ArrowForward /> :<ArrowRight/>}
+              </Button>
+          </HeroBtnWrapper>
+
           </ServicesCard>
 
           <ServicesCard>
